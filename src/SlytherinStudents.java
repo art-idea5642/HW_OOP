@@ -1,4 +1,4 @@
-public class SlytherinStudents extends HogwardsStudents {
+public class SlytherinStudents extends HogwartsStudents {
     private int cunning;
     private int determination;
     private int ambition;

@@ -1,4 +1,4 @@
-public class GryffindorStudents extends HogwardsStudents {
+public class GryffindorStudents extends HogwartsStudents {
     private int nobility;
     private int honor;
     private int courage;

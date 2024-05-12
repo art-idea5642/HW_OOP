@@ -1,9 +1,9 @@
-public class HogwardsStudents {
+public class HogwartsStudents {
     private final String studentName;
     private int magicPower;
     private int transgressionPower;
 
-    public HogwardsStudents(String studentName, int magicPower, int transgressionPower) {
+    public HogwartsStudents(String studentName, int magicPower, int transgressionPower) {
         this.studentName = studentName;
         this.magicPower = magicPower;
         this.transgressionPower = transgressionPower;
@@ -27,7 +27,7 @@ public class HogwardsStudents {
         System.out.println(this);
     }
 
-    public void compareStudents (HogwardsStudents secondStudent){
+    public void compareStudents (HogwartsStudents secondStudent){
         if (this.scoreSum() > secondStudent.scoreSum()){
             System.out.println("Сильнее студент " + this.getStudentName());
         }
